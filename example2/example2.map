@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (Lae2_roads89) (1)" radius="34.407799" interior="-1" model="17613" lodModel="17858" posX="2489.2969" posY="-1668.5" posZ="12.29688" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <vehicle id="vehicle (Sanchez Test) (1)" sirens="false" landingGearDown="false" plate="LDJ2 KKY" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="405" collisions="true" posX="2451.7" posY="-1661.6" posZ="13" rotX="0" rotY="0" rotZ="0" vehicleID="80005" color="38,55,57,245,245,245,0,0,0,0,0,0"></vehicle>
+</map>

@@ -4,8 +4,14 @@ local trailers = {
 	[584]="Petrol Trailer", [608]="Stairs", [435]="Cargo Trailer 1", [450]="Cargo Trailer 2", [591]="Cargo Trailer 3"
 }
 
-function getVehicleNameFromModel(ID)
+-- Editing for newmodels
+function getVehicleNameFromModel(ID, element)
+	local ID = getElementData(element, newmodelsKey['vehicle']) or ID
 	if not ID then return "" end
+	local isCustom, mod, customElementType = exports.newmodels:isCustomModID(ID)
+	if isCustom then
+		return mod.name
+	end
 	local name = getVehicleNameFromModelMTA(ID) or ""
 	if #name > 0 then return name end
 	return trailers[ID] or ""
@@ -16,8 +22,8 @@ local nameFromCategoryID = {
 	objectID = function(ID)
 		return getObjectNameFromModel ( tonumber(ID) )
 	end,
-	vehicleID = function(ID)
-		return getVehicleNameFromModel ( tonumber(ID) )
+	vehicleID = function(ID, element)
+		return getVehicleNameFromModel(tonumber(ID), element)
 	end,
 	weaponID = function(ID)
 		return getWeaponNameFromID ( tonumber(ID) )
@@ -57,7 +63,7 @@ function assignID ( theElement )
 				local nameGetter = nameFromCategoryID[dataDefinition.datatype]
 				if nameGetter then
 					local dataValue = edf.edfGetElementProperty(theElement, dataField)
-					local valueName = nameGetter(dataValue)
+					local valueName = nameGetter(dataValue, theElement)
 					if valueName then
 						idString = idString .. " ("..tostring(valueName)..")"
 					end

@@ -2,8 +2,12 @@
 	<info author="Talidan, jbeta" description="Map editor GUI" />
 
 	<!-- Required resources -->
+	<include resource="newmodels" />
 	<include resource="msgbox" />
 	<include resource="tooltip" />
+
+	<!-- Client newmodels -->
+	<script src="shared/newmodels/customFunc.lua" type="shared" />
 
 	<!-- Client-side logic -->
 	<!-- Client utils -->
