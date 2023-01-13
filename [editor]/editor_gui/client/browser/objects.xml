@@ -10122,7 +10122,7 @@
     
     <group name="New Models">
         <group name="Trash">
-            <model model="50001" base_model="1337" name="Engine Hoist" keywords=""></model>
+            <object model="50001" base_model="1337" name="Engine Hoist" keywords=""></object>
         </group>
     </group>
 </catalog>

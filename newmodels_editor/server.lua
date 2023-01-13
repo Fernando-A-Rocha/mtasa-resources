@@ -175,7 +175,8 @@ function updateEditorGUIFiles()
             local modelName = mod.name
             local groupName = usedModelGroupNames[modelBaseID]
             local groupNode = usedGroupNodes[groupName]
-            local modelNode = xmlCreateChild(groupNode, "model")
+            local tagName = string.sub(theType, 1, -2)
+            local modelNode = xmlCreateChild(groupNode, tagName)
             xmlNodeSetAttribute(modelNode, "model", modelID)
             xmlNodeSetAttribute(modelNode, "base_model", modelBaseID)
             xmlNodeSetAttribute(modelNode, "name", modelName)

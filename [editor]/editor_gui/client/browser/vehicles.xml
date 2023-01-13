@@ -257,16 +257,16 @@
     </group>
     <group name="New Models">
         <group name="SUVs and Wagons">
-            <model model="80002" base_model="489" name="02 Landstalker" keywords=""></model>
-            <model model="80003" base_model="400" name="86 Landstalker 1" keywords=""></model>
-            <model model="80004" base_model="400" name="98 Landstalker 1" keywords=""></model>
+            <vehicle model="80002" base_model="489" name="02 Landstalker" keywords=""></vehicle>
+            <vehicle model="80003" base_model="400" name="86 Landstalker 1" keywords=""></vehicle>
+            <vehicle model="80004" base_model="400" name="98 Landstalker 1" keywords=""></vehicle>
         </group>
         <group name="Motorbikes">
-            <model model="80005" base_model="468" name="Sanchez Test" keywords=""></model>
+            <vehicle model="80005" base_model="468" name="Sanchez Test" keywords=""></vehicle>
         </group>
         <group name="4-Door">
-            <model model="80001" base_model="507" name="Schafter" keywords=""></model>
-            <model model="80006" base_model="507" name="Elegant Test" keywords=""></model>
+            <vehicle model="80001" base_model="507" name="Schafter" keywords=""></vehicle>
+            <vehicle model="80006" base_model="507" name="Elegant Test" keywords=""></vehicle>
         </group>
     </group>
 </catalog>
