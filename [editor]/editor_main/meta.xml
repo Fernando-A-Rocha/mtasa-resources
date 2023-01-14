@@ -57,6 +57,7 @@
 
 	<!-- ID assignment handling code -->
 	<script src="server/IDhandler.lua" type="server" />
+	<script src="server/getPedNameFromModel.lua" type="server" />
 	<script src="server/getObjectNameFromModel.lua" type="server" />
 
 	<!-- EDF interface code -->

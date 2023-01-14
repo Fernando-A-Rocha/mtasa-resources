@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (Engine Hoist) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1337" scale="1" doublesided="false" collisions="true" objectID="50001" posX="2474.1001" posY="-1670.6" posZ="12.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Engine Hoist) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="1347" scale="1" doublesided="false" collisions="true" posX="2473.7" posY="-1667.9" posZ="12.9" rotX="0" rotY="0" rotZ="120"></object>
+    <object id="object (CJ_WASTEBIN) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1347" scale="1" doublesided="false" collisions="true" posX="2474.2" posY="-1666.2" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+</map>

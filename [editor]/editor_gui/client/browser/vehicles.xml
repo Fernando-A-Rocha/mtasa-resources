@@ -1,6 +1,4 @@
 <catalog type="vehicle">
-    
-    
     <group name="Aircraft">
         <group name="Helicopters">
             <vehicle model="417" keywords="" />
@@ -25,6 +23,7 @@
             <vehicle model="577" keywords="" />
             <vehicle model="592" keywords="" />
             <vehicle model="593" keywords="" />
+            <vehicle model="80002" keywords="" name="Shafter" />
         </group>
     </group>
     <group name="Bikes">

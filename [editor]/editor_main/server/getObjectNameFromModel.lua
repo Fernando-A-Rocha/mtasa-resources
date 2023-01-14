@@ -14259,6 +14259,12 @@ local objectNames = {
 [18630]="cs_landbit_20_A"
 }
 
-function getObjectNameFromModel ( id )
-	return objectNames[id] or false
+function getObjectNameFromModel ( id, element )
+	local id = getElementData(element, newmodelsKey['object']) or id
+	local isCustom, mod = exports.newmodels:isCustomModID(id)
+	if isCustom then
+		return mod.name
+	else
+		return objectNames[id] or false
+	end
 end

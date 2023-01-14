@@ -1,6 +1,6 @@
 <catalog type="skin">
-    
     <group name="Special">
+        <skin model="20001" name="Mafios" keywords="mafia" />
         <skin model="1" name="Truth" keywords="truth,male,white,hippie" />
         <skin model="2" name="Maccer" keywords="maccer,male,white,wanker" />
         <skin model="265" name="Tenpenny" keywords="officer,tenpenny,male,black,cop" />
@@ -225,7 +225,7 @@
         <skin model="49" name="Ninja Sensei" keywords="Japanese,japan,oriental,bald,old,kimono,dragon" />
         <skin model="80" name="Red Boxer" keywords="black,bald,guy,male,fighter,gloves,shorts,topless,shirtless,boxing,box" />
         <skin model="81" name="Blue Boxer" keywords="black,bald,guy,male,fighter,gloves,shorts,topless,shirtless,boxing,box,beard,mustache" />
-        <skin model="180" name="Bball Player" keywords="jersey,basketball,sport,beard,mustache,fade,black,guy,male" />`&#x0A;&#x09;&#x09;&#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        
+        <skin model="180" name="Bball Player" keywords="jersey,basketball,sport,beard,mustache,fade,black,guy,male" />`&#x0A;&#x09;&#x09;
         <skin model="203" name="Ninja 1" keywords="martial,fighter,kimono,dojo,asian,japanese,oriental,kungfu,shoeless,barefoot,guy,male" />
         <skin model="204" name="Ninja 2" keywords="martial,fighter,kimono,dojo,white,guy,male,kungfu,shoeless,barefoot,beard,mustache" />
     </group>
@@ -370,7 +370,7 @@
         <skin model="94" name="Andy Capp" keywords="golf,golfer,hat,old,white,guy,male,mustache" />
         <skin model="96" name="Soccer Player" keywords="tall,white,guy,male,stripes,stripe,striped,shorts" />
         <skin model="99" name="Rollerguy" keywords="rollerblades,blades,skates,skate,helmet,mustache,beard,spandex,glasses,sunglasses" />
-        <skin model="180" name="Bball Player" keywords="jersey,basketball,sport,beard,mustache,fade,black,guy,male" />`&#x0A;&#x09;&#x09;&#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        &#x0A;        
+        <skin model="180" name="Bball Player" keywords="jersey,basketball,sport,beard,mustache,fade,black,guy,male" />`&#x0A;&#x09;&#x09;
         <skin model="195" name="Denise Robinson" keywords="girlfriend,date,88,growler,bandana,black,girl,woman,jersey,sports,basketball" />
     </group>
     <group name="Tough Guys">

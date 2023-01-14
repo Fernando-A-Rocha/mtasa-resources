@@ -1,5 +1,4 @@
 <catalog type="object">
-    
     <group name="Alpha Channels and Non Collidable">
         <object model="9557" name="lake_sfw" keywords="" />
         <object model="8487" name="ballyswtr01_lvs" keywords="" />
@@ -10119,7 +10118,6 @@
         <object model="10040" name="cables3" keywords="" />
         <object model="10012" name="cables4" keywords="" />
     </group>
-    
     <group name="New Models">
         <group name="Trash">
             <object model="50001" base_model="1337" name="Engine Hoist" keywords=""></object>

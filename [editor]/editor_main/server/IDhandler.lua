@@ -19,8 +19,11 @@ end
 
 -- gets a friendly name from a category ID
 local nameFromCategoryID = {
-	objectID = function(ID)
-		return getObjectNameFromModel ( tonumber(ID) )
+	skinID = function(ID, element)
+		return getPedNameFromModel(tonumber(ID), element)
+	end,
+	objectID = function(ID, element)
+		return getObjectNameFromModel ( tonumber(ID), element)
 	end,
 	vehicleID = function(ID, element)
 		return getVehicleNameFromModel(tonumber(ID), element)
