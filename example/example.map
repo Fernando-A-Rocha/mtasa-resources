@@ -1,5 +1,0 @@
-<map edf:definitions="editor_main">
-    <vehicle id="vehicle (98 Landstalker 1) (1)" sirens="false" landingGearDown="false" plate="NRQS MPQ" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="405" collisions="true" posX="2480.7998" posY="-1662.0996" posZ="13.6" rotX="0" rotY="0" rotZ="0" vehicleID="80004" color="101,106,121,245,245,245,0,0,0,0,0,0"></vehicle>
-    <vehicle id="vehicle (Sanchez Test) (1)" sirens="false" landingGearDown="false" plate="RHS1 RXN" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="405" collisions="true" posX="2483.6006" posY="-1672.4004" posZ="13" rotX="0" rotY="0" rotZ="0" vehicleID="80005" color="34,25,24,245,245,245,0,0,0,0,0,0"></vehicle>
-    <vehicle id="vehicle (98 Landstalker 1) (2)" sirens="false" landingGearDown="false" plate="6TPH 079" paintjob="3" dimension="0" interior="0" health="1000" alpha="255" model="405" collisions="true" posX="2480" posY="-1669.8" posZ="13.6" rotX="0" rotY="0" rotZ="0" vehicleID="80004" color="38,55,57,245,245,245,0,0,0,0,0,0"></vehicle>
-</map>
