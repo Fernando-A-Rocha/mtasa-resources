@@ -1,0 +1,8 @@
+# Newmodels specific
+# 
+# These files will be modified by the newmodels editor tool (new models added)
+# and we don't want these changes to be tracked by git.
+# 
+objects.xml
+skins.xml
+vehicles.xml
