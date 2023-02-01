@@ -2,7 +2,6 @@
 	<info author="Talidan, jbeta" description="Map editor GUI" />
 
 	<!-- Newmodels specific -->
-	<include resource="newmodels" />
 	<script src="newmodels_custom.lua" type="shared" />
 
 	<!-- Required resources -->

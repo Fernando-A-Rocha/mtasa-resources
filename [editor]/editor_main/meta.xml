@@ -4,7 +4,6 @@
 	<min_mta_version server="1.5.8-9.20957" />
 
 	<!-- Newmodels specific -->
-	<include resource="newmodels" />
 	<script src="newmodels_custom.lua" type="shared" />
 
 	<!-- Script to shutdown the running gamemode and maps, because otherwise you get trouble -->
