@@ -8,7 +8,7 @@
 
 ----------- GENERAL SCRIPT CONFIGURATION -----------
 
-COMMAND_NAMES = { "newmodelseditor", "newmodels_editor" }
+COMMAND_NAMES = { "newmodelseditor", "newmodels_editor", "editor_newmodels", "editornewmodels" }
 
 function canUseTool(player)
     return hasObjectPermissionTo(player, "command.start", false) and hasObjectPermissionTo(player, "command.stop", false)
