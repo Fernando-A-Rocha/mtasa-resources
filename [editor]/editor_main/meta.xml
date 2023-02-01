@@ -56,9 +56,9 @@
 	<script src="server/definitionssync.lua" type="server" />
 
 	<!-- ID assignment handling code -->
-	<script src="server/IDhandler.lua" type="server" /> <!-- Edited - Newmodels Specific -->
-	<script src="server/getObjectNameFromModel.lua" type="server" /> <!-- Edited - Newmodels Specific -->
-	<script src="server/getPedNameFromModel.lua" type="server" /> <!-- Edited - Newmodels Specific -->
+	<script src="server/IDhandler.lua" type="server" /> <!-- Edited - Newmodels specific -->
+	<script src="server/getObjectNameFromModel.lua" type="server" /> <!-- Edited - Newmodels specific -->
+	<script src="server/getPedNameFromModel.lua" type="server" /> <!-- Edited - Newmodels specific -->
 
 	<!-- EDF interface code -->
 	<script src="client/elementcreation.lua" type="client" />
