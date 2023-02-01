@@ -3,6 +3,7 @@
 
 	<!-- Newmodels specific -->
 	<script src="newmodels_custom.lua" type="shared" />
+	<include resource="newmodels-engine" />
 
 	<!-- Required resources -->
 	<include resource="msgbox" />

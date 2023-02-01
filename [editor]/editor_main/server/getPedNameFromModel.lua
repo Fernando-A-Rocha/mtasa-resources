@@ -1,3 +1,6 @@
+--[[
+	Requires: newmodels resource
+]]
 local pedNames = {
     [0] = "CJ",
     [1] = "Truth",

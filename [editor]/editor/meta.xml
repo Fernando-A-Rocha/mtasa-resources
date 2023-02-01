@@ -2,7 +2,7 @@
 	<info author="erorr404,jbeta,Talidan" description="Official MTA map editor" />
 
 	<!-- Newmodels specific -->
-	<include resource="newmodels" />
+	<include resource="newmodels_editor" />
 
 	<!-- Include map manager, needed for the testing components, and handles the idea of "Gamemodes" and "Maps" -->
 	<include resource="mapmanager" />
