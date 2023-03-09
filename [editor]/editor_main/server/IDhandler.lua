@@ -3,9 +3,11 @@ local trailers = {
 	[584]="Petrol Trailer", [608]="Stairs", [435]="Cargo Trailer 1", [450]="Cargo Trailer 2", [591]="Cargo Trailer 3"
 }
 
+local dataNameVehicle = exports.newmodels:getDataNameFromType("vehicle")
+
 local getVehicleNameFromModelMTA = getVehicleNameFromModel
 function getVehicleNameFromModel(id, element)
-	id = getElementData(element, newmodelsKey['vehicle']) or id
+	id = getElementData(element, dataNameVehicle) or id
 	if not id then return "" end
 	local isCustom, mod, customElementType = exports.newmodels:isCustomModID(id)
 	if isCustom then
