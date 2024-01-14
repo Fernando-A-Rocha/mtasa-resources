@@ -6,7 +6,7 @@
 
     <info author="Fernando" name="New-Models Editor"
     description="Tool for using new models in Map Editor"
-    version="2.2.0"
+    version="3.3.0"
     type="script"/>
 
     <!-- Required resources -->
