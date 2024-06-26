@@ -1,5 +1,5 @@
 <meta>
-	<info author="MTA contributors (github.com/multitheftauto/mtasa-resources)" version="1.0" name="SA Map Fixes" description="This resource patches a few flaws in the default MTA world" type="script" />
+	<info author="MTA contributors (github.com/multitheftauto/mtasa-resources)" version="1.0" name="GTA:SA Game Model Fixes" description="This resource patches a exploits and broken game models (DFF/TXD/COL)" type="script" />
 	<min_mta_version client="1.6.0-9.22505.0" server="1.6.0-9.22505.0"></min_mta_version>
 
 	<script src="scripts/client/main.lua" type="client"/>
@@ -7,10 +7,6 @@
 	<script src="scripts/server/main.lua" type="server"/>
 
 	<settings>
-		<setting name="*crack_palace_interior" value="[true]" desc="Enable Big Smoke Crack Palace open-world interior map" accept="true,false"/>
-		<setting name="*atrium_lobby_interior" value="[true]" desc="Enable Atrium lobby entrance open-world interior map" accept="true,false"/>
-		<setting name="*garage_doherty_interior" value="[true]" desc="Enable Doherty Safehouse Garage open-world interior map" accept="true,false"/>
-		<setting name="*nodamage_crackfactory_interior" value="[true]" desc="Enable Undamaged SF Crack Factory open-world interior map" accept="true,false"/>
 		<setting name="*laeIdleProj02" value="[true]" desc="Enable laeIdleProj02 (Idlewood) Buildings collision fix" accept="true,false"/>
 		<setting name="*mall_01_SFS" value="[true]" desc="Enable mall_01_SFS Buildings collision fix" accept="true,false"/>
 		<setting name="*aircarpark_09_SFSe" value="[true]" desc="Enable aircarpark_09_SFSe Tunnel collision fix" accept="true,false"/>

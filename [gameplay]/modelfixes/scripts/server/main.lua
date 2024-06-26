@@ -7,7 +7,7 @@ end
 local function handlePlayerResourceStart(res)
     if res ~= resource then return end
 
-    triggerClientEvent(source, "mapfixes:client:loadAllComponents", source, mapFixComponents)
+    triggerClientEvent(source, "modelfixes:client:loadAllComponents", source, mapFixComponents)
 end
 addEventHandler("onPlayerResourceStart", root, handlePlayerResourceStart)
 
@@ -25,6 +25,6 @@ local function handleSettingChange(settingName)
     data.enabled = newValue == true
 
     -- Trigger for all players
-    triggerClientEvent("mapfixes:client:togOneComponent", resourceRoot, settingName, data.enabled)
+    triggerClientEvent("mapmodelfixesfixes:client:togOneComponent", resourceRoot, settingName, data.enabled)
 end
 addEventHandler("onSettingChange", root, handleSettingChange, false)
