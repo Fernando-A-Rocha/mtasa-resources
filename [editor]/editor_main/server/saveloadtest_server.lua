@@ -703,10 +703,6 @@ function createElementAttributesForSaving(xmlNode, element)
 		local colorString = vc[1]..","..vc[2]..","..vc[3]..","..vc[4]..","..vc[5]..","..vc[6]..","..vc[7]..","..vc[8]..","..vc[9]..","..vc[10]..","..vc[11]..","..vc[12]
 		xmlNodeSetAttribute(elementNode, "color", toAttribute(colorString))
 	end
-	local newmodelsBaseId = getElementData(element, "baseID")
-	if newmodelsBaseId then
-		xmlNodeSetAttribute(elementNode, "model", tostring(newmodelsBaseId))
-	end
 	return elementNode
 end
 
