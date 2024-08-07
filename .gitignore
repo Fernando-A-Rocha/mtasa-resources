@@ -20,3 +20,6 @@
 editor_dump/
 editor_test/
 editor_map_backups/
+
+# testing resources and stuff to be ignored
+\[ignore\]/*
