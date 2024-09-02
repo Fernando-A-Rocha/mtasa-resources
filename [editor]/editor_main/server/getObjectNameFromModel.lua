@@ -14258,10 +14258,10 @@ local objectNames = {
 [18629]="cs_landbit_06_A",
 [18630]="cs_landbit_20_A"
 }
-local dataNameObject = exports.newmodels:getDataNameFromType("object")
+local dataNameObject = exports.newmodels_reborn:getDataNameFromType("object")
 function getObjectNameFromModel ( id, element )
 	id = getElementData(element, dataNameObject) or id
-	local isCustom, mod = exports.newmodels:isCustomModID(id)
+	local isCustom, mod = exports.newmodels_reborn:isCustomModID(id)
 	if isCustom then
 		return mod.name
 	else

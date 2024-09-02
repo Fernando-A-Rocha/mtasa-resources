@@ -1,17 +1,16 @@
 <meta>
     <!-- This resource is available in the repository below.
-    Its version now matches the main newmodels version!
+    Its version matches the main newmodels version!
 
     https://github.com/Fernando-A-Rocha/mta-add-models -->
 
     <info author="Fernando" name="New-Models Editor"
     description="Tool for using new models in Map Editor"
-    version="3.3.0"
+    version="4.0.0"
     type="script"/>
 
     <!-- Required resources -->
-    <include resource="newmodels"/>
-    <include resource="newmodels-engine"/>
+    <include resource="newmodels_reborn"/>
 
     <!-- Main script -->
     <script type="server" src="core_s.lua"/>

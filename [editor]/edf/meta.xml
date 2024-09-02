@@ -5,7 +5,7 @@
 
 	<!-- Newmodels specific -->
 	<script src="newmodels_custom.lua" type="shared" />
-	<include resource="newmodels-engine" />
+	<include resource="newmodels_reborn" />
 
 	<script src="sharedutil.lua" type="shared" />
 	<script src="interface.lua" />

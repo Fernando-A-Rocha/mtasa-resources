@@ -1,6 +1,3 @@
---[[
-	Requires: newmodels resource
-]]
 local pedNames = {
     [0] = "CJ",
     [1] = "Truth",
@@ -301,10 +298,10 @@ local pedNames = {
     [311] = "Big Smoke Vest",
     [312] = "Physco",    
 }
-local dataNamePed = exports.newmodels:getDataNameFromType("ped")
+local dataNamePed = exports.newmodels_reborn:getDataNameFromType("ped")
 function getPedNameFromModel(id, element )
     id = getElementData(element, dataNamePed) or id
-    local isCustom, mod = exports.newmodels:isCustomModID(id)
+    local isCustom, mod = exports.newmodels_reborn:isCustomModID(id)
     if isCustom then
         return mod.name
     else

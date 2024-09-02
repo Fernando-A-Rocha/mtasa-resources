@@ -86,7 +86,7 @@ local function updateEditorGUIFiles()
         return false, "The editor GUI files could not be found."
     end
 
-    local allMods = exports.newmodels:getModList()
+    local allMods = exports.newmodels_reborn:getModList()
     if not allMods then
         return false, "Failed to get the newmodels mod list."
     end

@@ -2,7 +2,7 @@
 	<info author="erorr404,jbeta,Talidan" description="Map editor's main component" edf:definition="editor_main.edf" />
 
 	<!-- Newmodels specific -->
-	<include resource="newmodels" />
+	<include resource="newmodels_reborn" />
 
 	<min_mta_version server="1.5.8-9.20957" />
 
