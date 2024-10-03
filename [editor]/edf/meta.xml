@@ -3,6 +3,10 @@
 
 	<min_mta_version server="1.6.0-9.21765" />
 
+	<!-- Newmodels specific -->
+	<script src="newmodels_custom.lua" type="shared" />
+	<include resource="newmodels_reborn" />
+
 	<script src="sharedutil.lua" type="shared" />
 	<script src="interface.lua" />
 	<script src="properties.lua" />

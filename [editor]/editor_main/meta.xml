@@ -1,6 +1,9 @@
 <meta>
 	<info author="erorr404,jbeta,Talidan" description="Map editor's main component" edf:definition="editor_main.edf" version="1.0.0" />
 
+	<!-- Newmodels specific -->
+	<include resource="newmodels_reborn" />
+
 	<min_mta_version server="1.5.8-9.20957" />
 
 	<!-- Script to shutdown the running gamemode and maps, because otherwise you get trouble -->
@@ -53,8 +56,9 @@
 	<script src="server/definitionssync.lua" type="server" />
 
 	<!-- ID assignment handling code -->
-	<script src="server/IDhandler.lua" type="server" />
-	<script src="server/getObjectNameFromModel.lua" type="server" />
+	<script src="server/IDhandler.lua" type="server" /> <!-- Edited - Newmodels specific -->
+	<script src="server/getObjectNameFromModel.lua" type="server" /> <!-- Edited - Newmodels specific -->
+	<script src="server/getPedNameFromModel.lua" type="server" /> <!-- Edited - Newmodels specific -->
 
 	<!-- EDF interface code -->
 	<script src="client/elementcreation.lua" type="client" />
