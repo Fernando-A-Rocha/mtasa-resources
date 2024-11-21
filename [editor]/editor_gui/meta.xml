@@ -1,6 +1,10 @@
 <meta>
 	<info author="Talidan, jbeta" description="Map editor GUI" version="1.0.0" />
 
+	<!-- Newmodels specific -->
+	<script src="newmodels_custom.lua" type="shared" />
+	<include resource="newmodels_reborn" />
+
 	<!-- Required resources -->
 	<include resource="dialogs" />
 	<include resource="tooltip" />

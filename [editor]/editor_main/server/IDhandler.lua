@@ -1,23 +1,32 @@
-local getVehicleNameFromModelMTA = getVehicleNameFromModel
 local trailers = {
 	[606]="Baggage Trailer (Covered)", [607]="Baggage Trailer (Uncovered)", [610]="Farm Trailer", [611]="Street Clean - Trailer",
 	[584]="Petrol Trailer", [608]="Stairs", [435]="Cargo Trailer 1", [450]="Cargo Trailer 2", [591]="Cargo Trailer 3"
 }
 
-function getVehicleNameFromModel(ID)
-	if not ID then return "" end
-	local name = getVehicleNameFromModelMTA(ID) or ""
+local dataNameVehicle = exports.newmodels_reborn:getDataNameFromType("vehicle")
+local getVehicleNameFromModelMTA = getVehicleNameFromModel
+function getVehicleNameFromModel(id, element)
+	id = getElementData(element, dataNameVehicle) or id
+	if not id then return "" end
+	local isCustom, mod, customElementType = exports.newmodels_reborn:isCustomModID(id)
+	if isCustom then
+		return mod.name
+	end
+	local name = getVehicleNameFromModelMTA(id) or ""
 	if #name > 0 then return name end
-	return trailers[ID] or ""
+	return trailers[id] or ""
 end
 
 -- gets a friendly name from a category ID
 local nameFromCategoryID = {
-	objectID = function(ID)
-		return getObjectNameFromModel ( tonumber(ID) )
+	skinID = function(ID, element)
+		return getPedNameFromModel(tonumber(ID), element)
 	end,
-	vehicleID = function(ID)
-		return getVehicleNameFromModel ( tonumber(ID) )
+	objectID = function(ID, element)
+		return getObjectNameFromModel ( tonumber(ID), element)
+	end,
+	vehicleID = function(ID, element)
+		return getVehicleNameFromModel(tonumber(ID), element)
 	end,
 	weaponID = function(ID)
 		return getWeaponNameFromID ( tonumber(ID) )
@@ -39,7 +48,7 @@ local nameFromCategoryID = {
 function assignID ( theElement )
 	local creatorResource = edf.edfGetCreatorResource(theElement)
 	if creatorResource == edf.res then
-		creatorResource = thisResource
+		creatorResource = resource
 	end
 
 	local elementType = getElementType( theElement )
@@ -57,7 +66,7 @@ function assignID ( theElement )
 				local nameGetter = nameFromCategoryID[dataDefinition.datatype]
 				if nameGetter then
 					local dataValue = edf.edfGetElementProperty(theElement, dataField)
-					local valueName = nameGetter(dataValue)
+					local valueName = nameGetter(dataValue, theElement)
 					if valueName then
 						idString = idString .. " ("..tostring(valueName)..")"
 					end
