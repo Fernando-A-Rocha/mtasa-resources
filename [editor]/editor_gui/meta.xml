@@ -1,12 +1,12 @@
 <meta>
-	<info author="Talidan, jbeta" description="Map editor GUI" />
+	<info author="Talidan, jbeta" description="Map editor GUI" version="1.0.0" />
 
 	<!-- Newmodels specific -->
 	<script src="newmodels_custom.lua" type="shared" />
 	<include resource="newmodels-engine" />
 
 	<!-- Required resources -->
-	<include resource="msgbox" />
+	<include resource="dialogs" />
 	<include resource="tooltip" />
 
 	<!-- Client-side logic -->
@@ -57,11 +57,15 @@
 	<export function="closeSaveDialog" type="client" />
 	<export function="closeLoadDialog" type="client" />
 	<export function="guiGetMouseOverElement" type="client" />
-	<export function="guiShowMessageBox" type="client" />
 	<export function="openPropertiesBox" type="client" />
 	<export function="restoreSaveDialog" type="client" />
 	<export function="stopTest" type="client" />
 	<export function="restoreSelectedElement" type="client" />
+
+	<!-- MessageBox exports -->
+	<export function="newCallback" type="client" />
+	<export function="openCallback" type="client" />
+	<export function="saveCallback" type="client" />
 
 	<!-- Browser -->
 	<script src="client/browser/browserList.lua" type="client" />
